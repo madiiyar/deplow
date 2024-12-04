@@ -1,0 +1,6 @@
+@deployWithoutDB_HostAddress = http://localhost:5002
+
+GET {{deployWithoutDB_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
